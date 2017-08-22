@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install deley-keyup
+npm install delay-keyup
 ```
 
 # Example
@@ -50,7 +50,7 @@ import "delay-keyup"; //Recommanded
 Or in AMD
 
 ```javascript
-define(["deley-timeout"], function(){
+define(["delay-timeout"], function(){
     //Do stuffs here...
 });
 ```
@@ -62,7 +62,7 @@ can pass the second or third argument to this function a number to specified
 a custom timeout.
 
 ```javascript
-import "deley-keyup";
+import "delay-keyup";
 
 //The second argument
 document.querySelector("input").delayKeyup(function(){
