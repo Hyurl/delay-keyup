@@ -1,0 +1,25 @@
+{
+  "name": "delay-keyup",
+  "version": "0.1.0",
+  "description": "Sets an event handler when a keyup event fires after a specified timeout.",
+  "main": "delay-keyup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyurl/delay-keyup.git"
+  },
+  "keywords": [
+    "keyup",
+    "delay",
+    "event",
+    "timeout"
+  ],
+  "author": "Ayon Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyurl/delay-keyup/issues"
+  },
+  "homepage": "https://github.com/hyurl/delay-keyup#readme"
+}
