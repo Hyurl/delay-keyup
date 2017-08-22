@@ -1,6 +1,6 @@
 {
   "name": "delay-keyup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sets an event handler when a keyup event fires after a specified timeout.",
   "main": "delay-keyup.js",
   "scripts": {
