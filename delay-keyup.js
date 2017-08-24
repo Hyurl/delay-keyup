@@ -1,9 +1,9 @@
 /**
  * Sets an event handler when a keyup event fires after a specified timeout.
  * 
- * @param {String} targets A css selector for binding the elements.
+ * @param {String}   targets  A css selector for binding the elements.
  * @param {Function} callback Event handler.
- * @param {Integer} timeout Timeout in milliseconds.
+ * @param {Number}  timeout  Timeout in milliseconds.
  */
 function delayKeyup(targets, callback, timeout) {
     var timer,
