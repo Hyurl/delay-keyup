@@ -3,7 +3,8 @@
  * 
  * @param {String}   targets  A css selector for binding the elements.
  * @param {Function} callback Event handler.
- * @param {Number}  timeout  Timeout in milliseconds.
+ * 
+ * @param {Number}   timeout  Timeout in milliseconds.
  */
 function delayKeyup(targets, callback, timeout) {
     var timer,
@@ -35,8 +36,11 @@ if (typeof NodeList == 'function' || (typeof NodeList == 'object')) {
     if (typeof jQuery == 'function')
         jQuery.fn.delayKeyup = NodeList.prototype.delayKeyup;
     //AMD
-    if (typeof define === 'function' && define.amd)
-        define('delayKeyup', [], delayKeyup);
+    if (typeof define === 'function') {
+        define((require, exports, module) => {
+            module.exports = delayKeyup;
+        });
+    }
 } else if (typeof module === 'object' && module.exports) {
     //Nodejs/CommonJS
     module.exports = delayKeyup;
