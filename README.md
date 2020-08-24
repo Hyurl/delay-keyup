@@ -28,7 +28,7 @@ npm install delay-keyup
     });
 
     //Third, jQuery
-    $("input").daleyKeyup(function(){
+    $("input").delayKeyup(function(){
         $(this).val( $(this).val().toUpperCase() );
     });
 
