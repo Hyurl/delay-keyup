@@ -15,7 +15,7 @@ npm install delay-keyup
 
 <script src="jquery.js"></script>
 <script src="delay-keyup.js"></script>
-<sciprt>
+<script>
     //There are several ways to use this plugin:
     //First, HTMLElement
     document.querySelector("input").delayKeyup(function(){
@@ -36,7 +36,7 @@ npm install delay-keyup
     delayKeyup("input", function(){
         this.value = this.value.toUpperCase();
     });
-</sciprt>
+</script>
 ```
 
 Import in WebPack
